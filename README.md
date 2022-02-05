@@ -12,12 +12,12 @@ Has anaconda installed on windows. And configured you system variables ($path) o
 
 1. Clone the github repository.
 ```
-$ git clone https://github.com/R-Rijnbeek/standard_local_anaconda_builder.git
+$ git clone https://github.com/R-Rijnbeek/standard_anaconda_venv_builder.git
 ```
 
 2. Enter the project folder.
 ```
-$ cd standard_local_anaconda_builder
+$ cd standard_anaconda_venv_builder
 ```
 
 3. Build the virtual environment on the repository by running:
@@ -33,6 +33,6 @@ $ python test.py
 
 ## Notes to know: 
 
-1. The current YML file is an standar one to execute python in the last version
-2. If you need add more libraries. Then you only need to add them in thye current yml file or create an new one replacing it.
+1. The current YML file is an standad python instalation
+2. If you need add more libraries. Then you only need to add them in the current yml file or create an new one and replace it.
 3. This repository is tested with windows 10 and anaconda version 4.11.0
